@@ -6,19 +6,20 @@
 - **作业要求：** 参考要求文档
 - **提交项目：** 实验报告、作业代码
 - **截止日期：** 2022年6月20日 23:59分
-- **仓库状态：** 暂不包含代码，作业状态结束后公开上传
+- **仓库状态：** 暂不包含代码，由于作业状态处于进行中
 
 #### 【环境部署快速开始指南】
 
 ##### 一、材料准备
 - 需要 [VM WorkStation 虚拟机](https://www.vmware.com/company/labs-academic-software.html)，推荐交大的VMAP，不过由于最近一直都在申请，所以建议另外找比较规范的渠道获取最新的正版软件。
 - 需要 [VS Code](https://code.visualstudio.com/)，用于SSH远程调试，`SSH`是一种远程连接到云主机/服务器的方式，链接之后，可以远程通过命令行执行命令，在VS Code上当然还可以进行一些代码编辑，以及程序的运行。
-- 需要Ubuntu镜像，专业级选手可以直接选择服务器版本，全命令行无图形界面，初学者建议使用带有图形界面的版本。
-  - 下载链接 [Ubuntu 20.04 官方镜像]([https://cn.ubuntu.com/download/alternative-downloads](https://releases.ubuntu.com/20.04.4/))
+- 需要 [Ubuntu镜像](https://cn.ubuntu.com/)，专业级选手可以直接选择服务器版本，全命令行无图形界面，初学者建议使用带有图形界面的版本。
+  - 下载链接 [Ubuntu 20.04 官方镜像](https://releases.ubuntu.com/20.04.4/)
   - Desktop image 版本对应的是：**带有图形界面**的版本，有操作界面
   - Server install image 版本对应的是：**没有图形界面**的版本，纯命令行
   - 在安装过程中，您至少会输入一次密码，这个密码对应的是，Ubuntu的用户的密码，而不是 root（最高权限）的密码，最高权限的密码可以重置。
-- 需要本仓库中的脚本
+- 需要[快速安装脚本](https://github.com/Musicminion/Compile-Principal-Assignment/blob/main/envStart.sh)
+- 注释：脚本编写为原创，为方便一键部署环境。
 - 可能需要Linux版本的加速器，请根据个人网络条件酌情考虑
 
 ##### 二、Ubuntu root密码重置
